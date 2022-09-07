@@ -1,0 +1,67 @@
+
+/* mediaquerys */
+/* mobile first */
+
+@media (max-width: 980px){
+
+    div {
+        .contImgVentas {
+            width: 200px;
+           }
+    }
+}
+ 
+@media (max-width: 580px){
+    
+    main {
+        .contenedorServicios {
+            display: none;
+        }
+    }
+}
+ 
+@media (max-width: 1250px) {
+    
+    main {
+        .grid-containerColeccion{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    
+    }
+}
+ 
+@media (max-width: 1000px) {
+    
+    main {
+        .grid-containerColeccion{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+ 
+@media (max-width: 1250px) {
+    
+    main {
+        .grid-containerAccesorios{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+ 
+@media (max-width: 950px) {
+
+    main {
+        .grid-containerAccesorios{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+ 
+@media (max-width: 900px) {
+
+    main {
+        .grid-containerCalzados {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}

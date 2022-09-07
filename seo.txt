@@ -1,0 +1,13 @@
+1- coloqué etiquetas keywords en todos los HTML :
+
+Index , Colección , Accesorios , Calzado y Contacto: Calzados, remeras, buzos, camperas, camisas, pantalones, bermudas y más.
+
+2 - Coloqué la etiqueta description en todos los HTML :
+
+Index : Lo último en vestimenta masculina.Visitá la tienda online y aprovechá los descuentos.
+Colección : Descubrí un anticipo de la nueva colección. Disponible en Locales & Shop Online. ¡Comprá Online en DaleQueSosVos y Aprovechá Descuentos y Beneficios excusivos!
+Accesorios : Tenemos las mejores gorras y ruanas para combinar, aprovechá las ofertas.
+Calzado : Todo en zapatillas , unisex , todos los talles, Urbanas
+Contacto : Registrate y recibí todas las novedades y promociones disponibles
+
+3 - Agregamos en todos los title la descripción de cada HTML.
