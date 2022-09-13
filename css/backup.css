@@ -180,6 +180,58 @@ ul {
     background-color: aqua;
 }
 
+/* Secciones */
+
+.contenedorSecciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px !important;
+}
+
+h3 {
+    color: #8c8c8c;
+}
+
+.content {
+    width: 12rem;
+    height: 19rem;
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.content img {
+    width: 300px;
+}
+
+.content:hover {
+    border: 5px solid transparent;
+    border-radius: 2px;
+}
+
+.info{
+    text-align: center;
+    padding: 10px;
+}
+
+.boton {
+    color: #8c8c8c !important;
+}
+
+.boton-dos {
+    background-color:#f7c6af;
+
+}
+
+/* Banner Local */
+
+.bannerLocal {
+    width: 100%;
+}
+
 
 /* combos */
 
@@ -236,8 +288,75 @@ ul {
     border-radius: 20px;
 }
 
-.bannerLocal {
+
+/* Footer */
+
+footer {
     width: 100%;
+    padding: 50px 0px ;
+    background-image: url(../img/footer_background.svg);
+    background-size: cover;
+}
+
+.container__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer {
+    display: flex;
+    flex-direction: column !important;
+    padding: 10px;
+}
+
+.categorias{
+    color:#eebb99;
+}
+
+.redes {
+    padding: 5px;
+}
+
+.box__footer h2 {
+    margin-bottom: 30px;
+    color: #8c8c8c;
+    font-weight: 500;
+}
+
+.box__footer a {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #eebb99;
+}
+
+.box__footer a:hover {
+    color: #8c8c8c;
+}
+
+.categorias:hover {
+    color: #8c8c8c;
+}
+
+.box__copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p {
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr {
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
 }
 
 /* pagina coleccion */
@@ -248,6 +367,60 @@ ul {
 }
 
 /* contenido */
+
+.combosOfertas {
+    color:#8c8c8c;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.cardUno {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 20px !important;
+    box-shadow: 0 4px 8px 0 lightblue 0 6px 20px 0px black !important;
+    float: left !important;
+    text-align: center;
+}
+
+.cardUno:hover{
+    border: 2px solid #8c8c8c;
+    background-color: #e7e7e7;
+
+}
+
+.card-title {
+    padding: 2px;
+    margin: 5px;
+    font-size: 18px;
+    color: #8c8c8c;
+}
+
+.card-num {
+    color: #8c8c8c;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.card-text {
+    padding: 2px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.card-img-top{
+    border-radius: 10px;
+}
+
+.boton {
+    font-size: 15px;
+}
+
+.btn-primaryDos {
+    color:#8c8c8c !important;
+}
 
 .coleccion { 
     text-align: center;
@@ -299,6 +472,54 @@ ul {
     margin-bottom: 10px;
     align-items:center;
 }
+
+.cardUno {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 20px !important;
+    box-shadow: 0 4px 8px 0 lightblue 0 6px 20px 0px black !important;
+    float: left !important;
+    text-align: center;
+}
+
+.cardUno:hover{
+    border: 2px solid #8c8c8c;
+    background-color: #e7e7e7;
+
+}
+
+.card-title {
+    padding: 2px;
+    margin: 5px;
+    font-size: 18px;
+    color:#8c8c8c;
+}
+
+.card-num {
+    color: #8c8c8c;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.card-text {
+    padding: 2px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.card-img-top{
+    border-radius: 10px;
+}
+
+.boton {
+    font-size: 15px;
+}
+
+.btn-primaryDos {
+    color: #8c8c8c !important;
+} 
+
 
 /* pagina calzados */
 
