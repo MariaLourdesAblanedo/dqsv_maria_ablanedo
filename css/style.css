@@ -508,16 +508,6 @@ main .contact-form form button:hover {
   color: #8c8c8c;
   outline: 0;
 }
-main .titulo-info {
-  margin-top: 5px;
-}
-main .contact-info {
-  background: #eebb99;
-  border-radius: 10px;
-  margin-top: 10px;
-  margin: 10px;
-  padding: 10px;
-}
 
 /* Keyframes */
 @keyframes titulo {
