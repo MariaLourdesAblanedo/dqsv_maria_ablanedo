@@ -72,33 +72,66 @@
 
         <img class="bannerContacto" src="../img/BannerContacto.png" alt="Banner Contacto">
         
-        <h1 class="wow contacto animate__animated animate__zoomIn">CONTACTO</h1>
+        <!-- Formulario -->
 
-        <form>
+        <div class="contContacto">
 
-          <div class="contContacto">
-            <label for="exampleInputEmail1">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu email">
-            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo electrónico con nadie.</small>
+          <div class="contact-form">
+
+            <h1 class="contactoForm">Contacto</h1>
+
+            <form action="">
+              <p>
+                <label>Nombre</label>
+                <input type="name">
+              </p>
+
+              <p>
+                <label>Apellido</label>
+                <input type="apellido">
+              </p>
+                
+              <p>
+                <label>Email</label>
+                <input type="Email" name="Email">
+              </p>
+
+              <p>
+                <label>Teléfono</label>
+                <input type="tel" name="Teléfono">
+              </p>
+
+              <p class="block">
+                <label>Comentario</label>
+                <textarea name="Comentario" rows="5"></textarea>
+              </p>
+
+              <p class="block">
+                <button type="submit">
+                 Enviar
+                </button>
+              </p>
+
+            </form>
+
+            <div class="contact-info">
+                <h4 class="titulo-info">Información</h4>
+                <ul>
+                  <li>Crisóstomo Alvarez 650</li>
+                  <li>381-156235845</li>
+                  <li>Dalequesosvos@gmail.com</li>
+                </ul>
+
+                <p>Nos encontramos en la ciudad de San Miguel de Tucumán . Podrás visitar nuestro local
+                  en Capital Crisóstomo Alvarez 650 , local 10 y próximamente abriremos nuestras puertas
+                  en nuestra nueva sucursal en Banda del Río Salí : Av. San Martín 92.
+                  Realizamos envíos a todo el país . 
+                </p>
+            </div>
           </div>
 
-          <div class="contContacto">
-            <label for="exampleInputPassword1">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresá una contraseña">
-          </div>
-
-          <div class="contContacto">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Acepto los términos</label>
-          </div>
-
-          <div class="contContacto">
-            <textarea name="comentario" id="" cols="25" rows="5"></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-primary">Enviar</button>
-
-        </form>
+    
+        </div>
 
 
     </main>
